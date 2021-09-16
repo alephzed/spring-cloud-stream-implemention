@@ -22,7 +22,7 @@ spring:
   # Messaging binders for the cloud streaming
   cloud.stream:
     # My personal property to stop the supplier from producing until when I want
-    producer.produce: false
+    producer.produce: true
     # Default config
     default:
       binder: rabbit
